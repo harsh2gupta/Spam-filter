@@ -1,0 +1,2 @@
+Multinomial Classifier:
+This is a different approach for calculating the posterior probabilities. The ides is an email with 5 occurrences of the word like “lottery” or “lucky” is more likely to be a spam than an email with one occurrence of each. So we calculate the prior probabilities as the ratio of the number of occurrences of a word to the ratio of the total number of words in all spam emails.
